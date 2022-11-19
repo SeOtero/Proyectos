@@ -41,12 +41,12 @@ public class ControllerWeb {
     public static String obtenerEstado(double IMC){ 
         if (IMC < 15) return ("Delgadez muy Severa "); 
         if (IMC >= 15 && IMC < 15.99) return ("Delgadez Severa"); 
-        if (IMC > 16 && IMC < 18.49) return ("Delgadez");
-        if (IMC > 18.5 && IMC < 24.99) return ("Peso Saludable");
-        if (IMC > 25 && IMC < 29.99)return ("Sobrepeso");
-        if (IMC > 30 && IMC < 34.99)return ("Obesidad Moderada");   
-        if (IMC > 35 && IMC < 39.99)return("Obesidad Severa");
-        if (IMC > 40)return("Obesidad Morbida");
+        if (IMC >= 16 && IMC < 18.49) return ("Delgadez");
+        if (IMC >= 18.5 && IMC < 24.99) return ("Peso Saludable");
+        if (IMC >= 25 && IMC < 29.99)return ("Sobrepeso");
+        if (IMC >= 30 && IMC < 34.99)return ("Obesidad Moderada");   
+        if (IMC >= 35 && IMC < 39.99)return("Obesidad Severa");
+        if (IMC >= 40)return("Obesidad Morbida");
         
         return"";
           
